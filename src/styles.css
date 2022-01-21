@@ -1,0 +1,146 @@
+.container-form {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #8ec351;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  background-image: url("../images/Night-Sky-Background.jfif");
+  background-color: transparent;
+}
+
+.location,
+.col .temperature,
+.col .weather,
+.details {
+  color: #42a5f5;
+}
+
+li {
+  font-size: small;
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+input.Search,
+button.Current-location {
+  font: 26px "Helvetica", "Arial", "sans-serif";
+  background: transparent;
+  border-color: #ffa726;
+}
+
+input.custom {
+  font: 26px "Helvetica", "Arial", "sans-serif";
+  border-color: #ffa726;
+}
+
+h5,
+input.Search,
+.description {
+  color: #42a5f5;
+}
+
+h6 {
+  color: #47505e;
+}
+
+img {
+  width: 25px;
+}
+
+.location {
+  font-size: 50px;
+  font-weight: 900;
+  padding-left: 20px;
+}
+
+.temperature {
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.celsius,
+.separate,
+.fahrenheit {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.units {
+  border: 1px solid orange;
+  border-radius: 30px;
+  width: 60px;
+  position: relative;
+  margin-left: 30%;
+}
+
+.row {
+  --bs-gutter-x: -2.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col .weather {
+  font-size: 100px;
+}
+
+.fas {
+  font-size: 50px;
+  color: #42a5f5;
+}
+
+.forecast {
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-bottom: 30px;
+}
+
+.fa-moon {
+  margin-top: 10px;
+}
+
+.description {
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.feels-like {
+  font-size: large;
+  font-weight: bolder;
+  color: #42a5f5;
+}
+
+.card.days {
+  background: transparent;
+  border-color: #8ec351;
+}
+
+.card-body .future {
+  font-size: 20px;
+  color: #42a5f5;
+}
+
+.open-source {
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.main-weather-icon {
+  height: 175px;
+  width: 175px;
+}
