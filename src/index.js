@@ -15,11 +15,14 @@ function formatDate(timestamp) {
 
   let hours = now.getHours();
   let minutes = now.getMinutes();
-  if (minutes === 10 || minutes > 10) {
-    return `Last updated a moment ago ${today}, ${hours}:${minutes}`;
-  } else {
-    return `Last updated a moment ago ${today}, ${hours}:0${minutes}`;
+  if (hours < 10) {
+    hours = `0${hours}`;
   }
+  if (minutes < 10) {
+    minutes = `0${minutes}`;
+  }
+
+  return `Last updated ${today}, ${hours}:${minutes}`;
 }
 
 function retrievePosition(position) {
